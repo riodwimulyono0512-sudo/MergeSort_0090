@@ -20,7 +20,6 @@ void input()
         else
         {
             cout << "\nMaksimal panjang array adalah 20";
-        
         }
     }
     cout << "\n--------------------------" << endl;
@@ -31,5 +30,15 @@ void input()
     {
         cout << "Array index ke- " << i << " : ";
         cin >> arr[i];
+    }
+}
+
+// create function margeSort
+void mergeSort(int low, int high)
+{
+
+    if (low >=high) // step 1
+    {
+        return; // step 1.a
     }
 }
